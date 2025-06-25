@@ -69,7 +69,7 @@ with st.sidebar:
         3. Click **Predict** to see the emotion!
     """)
     st.write("---")
-    st.write("Made with ❤️ by Your Name")
+    st.write("Made with ❤️ by Ishit Kalra")
 
 # Two columns: visuals | controls
 col1, col2 = st.columns([2, 1])
