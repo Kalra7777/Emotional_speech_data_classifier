@@ -41,16 +41,10 @@ The classifier is capable of detecting the following **eight emotional categorie
 - **Exported Model File:** `xgb_model.json`
 
 ---
+# 🔗 Live Demo
 
-## 📁 Folder Layout
+Try out the Emotion Classification app right in your browser:
 
-```bash
-.
-├── app.py                      # Main Streamlit interface
-├── model/
-│   └── xgb_model.json          # Trained XGBoost model file
-├── utils/
-│   └── feature_extraction.py   # Functions for audio feature processing
-├── audio_samples/              # Test .wav files for demonstration
-├── requirements.txt            # Python dependencies
-└── README.md                   # Project overview
+(https://emotion-classification-kalra-23125014.streamlit.app/)
+
+> 🎙️ Upload any WAV file and see real-time emotion detection powered by XGBoost!
